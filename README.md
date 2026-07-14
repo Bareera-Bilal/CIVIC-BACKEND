@@ -1,10 +1,8 @@
-# Civic-AI
-
+# Civic
 Civic-AI is a modern, responsive web application and AI assistant designed to streamline the discovery and application process for government schemes and services. 
-
 ![Civic-AI Dashboard](./docs/dashboard.png)
 
-## Architecture
+# Architecture
 
 The project is structured as a full-stack application with a clean separation between the frontend interface and the backend API logic.
 
@@ -21,7 +19,7 @@ The project is structured as a full-stack application with a clean separation be
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/) (v18+)
@@ -49,23 +47,18 @@ The project is structured as a full-stack application with a clean separation be
    ```
    The API will be running at `http://localhost:8000`.
 
-### 2. Frontend Setup (Next.js)
 
-1. Open a new terminal tab and navigate to the frontend directory:
-   ```bash
-   cd CIVIC-AI/frontend
-   ```
-2. Install Node dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the Next.js development server:
-   ```bash
-   npm run dev
-   ```
-4. Open your browser and navigate to `http://localhost:3000` to view the Civic-AI workspace.
+   cd C:\Users\baree\OneDrive\Desktop\HAKATHON\backend
+.\venv\Scripts\Activate.ps1
+python -m uvicorn main:app --reload --port 8000
 
----
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Bareera-Bilal/CIVIC-BACKEND.git
+git push -u origin main
 
 ## Folder Structure
 
